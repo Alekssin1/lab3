@@ -1,1 +1,18 @@
-{"event": {"type_of_ticket": {"regular": 100, "student": 50.0, "advanced": 60.0, "late": 110.0}, "date": [2022, 1, 15, 15, 30], "number_of_tickets": 160}}
+{
+    "event": {
+        "type_of_ticket": {
+            "regular": 100,
+            "student": 50.0,
+            "advanced": 60.0,
+            "late": 110.0
+        },
+        "date": [
+            2022,
+            1,
+            15,
+            15,
+            30
+        ],
+        "number_of_tickets": 158
+    }
+}

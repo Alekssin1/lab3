@@ -66,7 +66,7 @@ class Advanced(Regular):
             self.price = event['event']['type_of_ticket']['regular'] * 0.6
             event['event']['type_of_ticket']['advanced'] = self.price
         with open('event.json', 'w') as f:
-            json.dump(event, f)
+            json.dump(event, f, indent=4)
 
     @property
     def price(self):
@@ -87,7 +87,7 @@ class Late(Regular):
             self.price = event['event']['type_of_ticket']['regular'] * 1.1
             event['event']['type_of_ticket']['late'] = self.price
         with open('event.json', 'w') as f:
-            json.dump(event, f)
+            json.dump(event, f, indent=4)
 
 
 class Student(Regular):
@@ -98,7 +98,7 @@ class Student(Regular):
             self.price = event['event']['type_of_ticket']['regular'] * 0.5
             event['event']['type_of_ticket']['student'] = self.price
         with open('event.json', 'w') as f:
-            json.dump(event, f)
+            json.dump(event, f, indent=4)
 
 
 class UserInfo:
@@ -117,7 +117,7 @@ class UserInfo:
             database['event'][str(self.ticket.id)]['price'] = self.ticket.price
             database['event'][str(self.ticket.id)]['purchase_date'] = self.datetime
         with open("database.json", 'w') as f:
-            json.dump(database, f)
+            json.dump(database, f, indent=4)
 
     @property
     def customer(self):
@@ -184,7 +184,7 @@ class Event:
             raise TimeoutError("Time to buy tickets is up. Event ended.")
         event["event"]["number_of_tickets"] -= 1
         with open("event.json", 'w') as f:
-            json.dump(event, f)
+            json.dump(event, f, indent=4)
         if customer.student_or_not:
             return self.ticket_student
         elif date_delta > 60:
