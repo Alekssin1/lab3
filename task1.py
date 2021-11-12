@@ -1,6 +1,7 @@
 import json
 import uuid
 import datetime
+from sales import SALES_ADVANCED, SALES_LATE, SALES_STUDENT
 
 
 class Customer:
@@ -59,11 +60,13 @@ class Regular:
 
 
 class Advanced(Regular):
+
     def __init__(self):
+
         super().__init__()
         with open("event.json", 'r') as f:
             event = json.load(f)
-            self.price = event['event']['type_of_ticket']['regular'] * 0.6
+            self.price = event['event']['type_of_ticket']['regular'] * SALES_ADVANCED
             event['event']['type_of_ticket']['advanced'] = self.price
         with open('event.json', 'w') as f:
             json.dump(event, f, indent=4)
@@ -84,7 +87,7 @@ class Late(Regular):
         super().__init__()
         with open("event.json", 'r') as f:
             event = json.load(f)
-            self.price = event['event']['type_of_ticket']['regular'] * 1.1
+            self.price = event['event']['type_of_ticket']['regular'] * SALES_LATE
             event['event']['type_of_ticket']['late'] = self.price
         with open('event.json', 'w') as f:
             json.dump(event, f, indent=4)
@@ -95,7 +98,7 @@ class Student(Regular):
         super().__init__()
         with open("event.json", 'r') as f:
             event = json.load(f)
-            self.price = event['event']['type_of_ticket']['regular'] * 0.5
+            self.price = event['event']['type_of_ticket']['regular'] * SALES_STUDENT
             event['event']['type_of_ticket']['student'] = self.price
         with open('event.json', 'w') as f:
             json.dump(event, f, indent=4)
