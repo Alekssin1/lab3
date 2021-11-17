@@ -1,0 +1,116 @@
+{
+  "pizza-of-the-day": {
+    "0": {
+      "name": "Hawaiian pizza",
+      "price": 100,
+      "ingredients": {
+        "sachet dried yeast": 7,
+        "lukewarm water": 250,
+        "plain flour": 400,
+        "salt": 7,
+        "olive oil": 60,
+        "pizza sauce": 250,
+        "cheese": 150,
+        "pineapple pieces": 150,
+        "chicken": 150
+      }
+    },
+    "1": {
+      "name": "Pepperoni pizza",
+      "price": 150,
+      "ingredients": {
+        "sachet dried yeast": 7,
+        "lukewarm water": 250,
+        "plain flour": 400,
+        "salt": 7,
+        "olive oil": 60,
+        "tomato paste": 250,
+        "cheese": 150,
+        "pepperoni": 300
+      }
+    },
+    "2": {
+      "name": "Margherita pizza",
+      "price": 122.99,
+      "ingredients": {
+        "sachet dried yeast": 7,
+        "lukewarm water": 250,
+        "plain flour": 400,
+        "salt": 7,
+        "olive oil": 60,
+        "tomato paste": 250,
+        "mushrooms": 150,
+        "cheese": 150,
+        "pizza sauce": 50,
+        "chicken": 150,
+        "pepperoni": 150
+      }
+    },
+    "3": {
+      "name": "California pizza",
+      "price": 98.99,
+      "ingredients": {
+        "sachet dried yeast": 7,
+        "lukewarm water": 250,
+        "plain flour": 400,
+        "salt": 7,
+        "olive oil": 60,
+        "pizza sauce": 250,
+        "cheese": 150,
+        "mushrooms": 150,
+        "tomato": 150,
+        "chicken": 150,
+        "onion": 40
+      }
+    },
+    "4": {
+      "name": "BBQ chicken pizza",
+      "price": 115,
+      "ingredients": {
+        "sachet dried yeast": 7,
+        "lukewarm water": 250,
+        "plain flour": 400,
+        "salt": 7,
+        "olive oil": 60,
+        "bbq sauce": 250,
+        "cheese": 150,
+        "mushrooms": 150,
+        "tomato": 150,
+        "chicken": 150,
+        "onion": 50
+      }
+    },
+    "5": {
+      "name": "BBQ pizza",
+      "price": 66.6,
+      "ingredients": {
+        "sachet dried yeast": 7,
+        "lukewarm water": 250,
+        "plain flour": 400,
+        "salt": 7,
+        "olive oil": 60,
+        "bbq sauce": 250,
+        "cheese": 150,
+        "mushrooms": 150,
+        "tomato": 150,
+        "ham": 150,
+        "onion": 50
+      }
+    },
+    "6": {
+      "name": "Hawaiian pizza",
+      "price": 80,
+      "ingredients": {
+        "sachet dried yeast": 7,
+        "lukewarm water": 250,
+        "plain flour": 400,
+        "salt": 7,
+        "olive oil": 60,
+        "pizza sauce": 250,
+        "cheese": 150,
+        "pineapple pieces": 150,
+        "chicken": 150
+      }
+    }
+  }
+}

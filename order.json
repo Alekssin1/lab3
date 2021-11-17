@@ -1,0 +1,22 @@
+{
+    "b12fc815-4792-11ec-8dce-80304949e310": {
+        "name": "Stephen",
+        "surname": "King",
+        "price": 132.99,
+        "pizza_name": "Margherita pizza",
+        "ingredients": {
+            "sachet dried yeast": 7,
+            "lukewarm water": 250,
+            "plain flour": 400,
+            "salt": 7,
+            "olive oil": 60,
+            "tomato paste": 250,
+            "mushrooms": 150,
+            "cheese": 150,
+            "pizza sauce": 50,
+            "chicken": 200,
+            "pepperoni": 150,
+            "pineapple pieces": 50
+        }
+    }
+}
